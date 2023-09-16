@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <h1>Calculator with Node.js and Express.js</h1>
+        <h3>Enter your desired numbers and select the operation to view the result.</h3>
+        <form action="/" method="post">
+            <input class="input_num" type="text" name="num1" placeholder="First number">
+            <input class="input_num" type="text" name="num2" placeholder="Second number">
+        
+            <div class="form-group">
+                <label class="op_heading" for="operation">Operation</label>
+                <select class="form-control" id="operation" name="operation" required>
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                    <option value="multiply">Multiply</option>
+                    <option value="divide">Divide</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn" name="submit">Calculate</button>
+        </form>
+
+        <a href="bmiCalculator">Calculate your BMI</a>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

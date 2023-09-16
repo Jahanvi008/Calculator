@@ -1,0 +1,66 @@
+/* public/styles.css */
+body {
+    background:linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);;
+    text-align: center;
+}
+
+h1 {
+    color: #c9c3c3;
+    padding: 7%;
+    margin: auto;
+}
+
+h3{
+    color: #c9c3c3;
+    padding: 0 5% 5%;
+}
+
+.op_heading{
+    font-size: 20px;
+    color: #c9c3c3;
+    padding: 0 5% 5%;
+    margin-bottom: 7%;
+}
+
+.input_num {
+    padding: 1%;
+    margin: 1% 2% 5%;
+}
+
+.btn, a:link, a:visited  {
+    background: #0e93eb;
+    background-image: -webkit-linear-gradient(top, #0e93eb, #88b5d1);
+    background-image: -moz-linear-gradient(top, #0e93eb, #88b5d1);
+    background-image: -ms-linear-gradient(top, #0e93eb, #88b5d1);
+    background-image: -o-linear-gradient(top, #0e93eb, #88b5d1);
+    background-image: linear-gradient(to bottom, #0e93eb, #88b5d1);
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    text-shadow: 0px 1px 3px #b5aab5;
+    -webkit-box-shadow: 0px 1px 3px #3e96d1;
+    -moz-box-shadow: 0px 1px 3px #3e96d1;
+    box-shadow: 0px 1px 3px #3e96d1;
+    font-family: Georgia;
+    color: #e8f1f7;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    margin: 5% 5%;
+    border: 2cm;
+  }
+  
+.btn:hover, a:hover, a:active {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#operation{
+    padding :  1% ;
+    margin:auto;
+    color: rgb(35, 73, 75);
+}
