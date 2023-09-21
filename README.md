@@ -10,13 +10,13 @@ This is the interface for the BMI calculator where user needs to enter their hei
 ### How to run the project:
 1. Open the terminal
 2. cd destination--folder
-3. Type the command git clone "git@github.com:Jahanvi008/Calculator.git"
+3. Type the command git clone "https://github.com/Jahanvi008/Calculator.git"
 4. cd /Calculator
 5. npm install
 6. npm start
 7. node calculator.js
 8. On the browser go to http://localhost:3000
-9. Use the web application!!
+Use the web application!!
 
 ### Contact
 If you have any questions or suggestions regarding this project, feel free to contact me at jahanvimathukia28@gmail.com
